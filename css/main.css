@@ -1,0 +1,74 @@
+.superior{
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-radius: 5px 5px 0 0;
+    background:white ;
+}
+.superior p:nth-of-type(1){
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--Brigh-Yellow);
+    margin-bottom: 1rem;
+    background: white;
+}
+.superior p:nth-of-type(2){
+    line-height: 1.625rem;
+    color: var(--Grayish-Blue);
+    font-size: 14px;
+    background: white;
+}
+.esquerda{
+    background: var(--Cyan);
+    padding: 1.5rem;
+
+}
+.esquerda div p:nth-of-type(1){
+    color:white;
+    font-size: 2rem; 
+    font-weight: 700;
+    line-height: 2.375rem;
+    background: var(--Cyan);
+
+}
+.esquerda div p:nth-of-type(2){
+    color: white;
+    opacity: 0.5;
+    background: var(--Cyan);
+}
+.esquerda div{
+    display: flex;
+    margin: 0.75rem; 
+    text-align: center;
+    margin: 0.25rem;
+    background: var(--Cyan);
+
+}
+.esquerda p{
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+    background: var(--Cyan);
+}
+.esquerda button{
+    padding-block: 1rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    line-height:1.125rem ;
+    border: none;
+    background: var(--Brigh-Yellow);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+.direita{
+    background: var(--Light-Cyan);
+    padding:2rem;
+    border-radius: 0px 0px 5px 5px;
+}
+.direita p{
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
+
+}
